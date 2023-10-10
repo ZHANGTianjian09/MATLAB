@@ -11,6 +11,7 @@ f = 2*(sin(x)+y.^2).*sqrt(1+(x.^2+y.^2)./(4-(x.^2+y.^2)));
 est1 = sum(f)/Nsp* 4*pi
 
 
+
 %idea2 direct method 
 nums_points = 1e6; % 点数量
 radius = 2;
