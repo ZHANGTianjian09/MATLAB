@@ -9,7 +9,11 @@ There are two numerical approaches to consider. The first approach involves tran
 The second approach involves directly sampling points on the surface (i.e. the sphere), which is the hardest part of this problem, and then computing the average function value of the three variables. Try using both methods to approximate the value of the integral and analyze the error.
 
 
+2. Soldier Line-up Problem
 
-3. Minimum steps calculation for the knight's move
+Suppose there are 100 points on a two-dimensional plane with coordinates $$\left\{\left(\boldsymbol{x}_i, \boldsymbol{y}_i\right)\right\}_{1 \leq i \leq 100}$, representing the current positions of 100 soldiers on a parade ground. First, assume that these point coordinates fall within the bounded region $[0,1] \times[0,1]$$. Their coordinates $F_{100 \times 2}$ are stored in the file "W5603.mat" (copy the file to the current folder, then double-click in the window, or use the MATLAB command load W5623 to open it). Now, the soldiers need to move to specified positions to line up. Assume that the soldiers will walk in straight lines to their respective positions and will not collide with each other.
 
-As depicted, the Chinese chess board consists of 10 rows and 9 columns. We aim to calculate the minimum number of steps required for the knight to reach each point on the board, and store these results in a matrix $A_{10 \times 9}$. Reference results are as follows:  $A(1,2) = 0$, $A(1,1) = 3$, $A(2,4) = 1$, and so on.
+If you can arrange the positions of the 100 soldiers, allowing them to line up at the 100 coordinates from the previous question (but the order of the soldiers can change), what is the minimum total moving distance?
+
+\
+
