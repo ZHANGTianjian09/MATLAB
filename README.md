@@ -9,4 +9,5 @@ There are two numerical approaches to consider. The first approach involves tran
 
 The second approach involves directly sampling points on the surface (i.e. the sphere), which is the hardest part of this problem, and then computing the average function value of the three variables. Try using both methods to approximate the value of the integral and analyze the error.
 
-2. Minimum steps calculation for the knight's move: As depicted, the Chinese chess board consists of 10 rows and 9 columns. We aim to calculate the minimum number of steps required for the knight to reach each point on the board, and store these results in a matrix \( A_{10 \times 9} \). Reference results are as follows: \( A(1,2) = 0 \), \( A(1,1) = 3 \), \( A(2,4) = 1 \), and so on.
+2. Minimum steps calculation for the knight's move:
+As depicted, the Chinese chess board consists of 10 rows and 9 columns. We aim to calculate the minimum number of steps required for the knight to reach each point on the board, and store these results in a matrix $ A_{10 \times 9} $. Reference results are as follows: \( A(1,2) = 0 \), \( A(1,1) = 3 \), \( A(2,4) = 1 \), and so on.
