@@ -1,7 +1,7 @@
 # MATLAB
 Here I share specific problem and the solutions done by myself. Problems are here and I have the solutions attached.
 
-1. Use Monte Carlo Method Calculate Intergral
+1. Use Monte Carlo Method calculate intergral
 
 Compute the surface integral.
 $$\iint_S \sin x+y^2+\ln \left|\sqrt{z^2+1}-z\right| d S, \quad S: x^2+y^2+z^2=4$$
