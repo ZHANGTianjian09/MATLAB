@@ -16,5 +16,7 @@ representing the current positions of 100 soldiers on a parade ground. First, as
 If you can arrange the positions of the 100 soldiers, allowing them to line up at the 100 coordinates from the previous question (but the order of the soldiers can change), what is the minimum total moving distance?
 
 3. Extended Proximal Gradient Descent
-Let \(\vec{x}\) be a 4-dimensional column vector, \(A, B\) be \(4 \times 4\) matrices, \(\vec{b}\) be a 4-dimensional column vector, \(\lambda = 0.1\), solve for \(\min _{\vec{x}} \frac{1}{2}\|A \vec{x}-\vec{b}\|_2^2+\lambda\|B \vec{x}\|_1\)
+
+Let $\vec{x}$ be a 4-dimensional column vector, $A, B$ be $4\times4$ matrices, $\vec{b}$ be a 4-dimensional column vector, $\lambda = 0.1$, solve for $\min _{\vec{x}} \frac{1}{2}\|A \vec{x}-\vec{b}\|_2^2+\lambda\|B \vec{x}\|_1$.
+
 
