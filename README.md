@@ -1,5 +1,5 @@
 # MATLAB
-Here I share specific problem and the solutions done by myself. Problems are here and I have the solutions attached.
+Here I share specific problems and the solutions done by myself. Problems are here and I have the solutions attached.
 
 1. Use Monte Carlo Method calculate intergral
 
