@@ -19,4 +19,7 @@ If you can arrange the positions of the 100 soldiers, allowing them to line up a
 
 Let $\vec{x}$ be a 4-dimensional column vector, $A, B$ be 4 $\times$ 4 matrices, $\vec{b}$ be a 4-dimensional column vector, $\lambda$ = 0.1, solve for $\min _{\vec{x}} \frac{1}{2}\|\|A \vec{x}-\vec{b}\|\|_2^2+\lambda\|\|B \vec{x}\|\|_1$.
 
+4. Specific Knapsack Problem
+   
+Assuming there is a store with a total of $n$ different items, where the first $m$ items are special items ($1 \leq m < n$). Each item is priced at $c_i$ dollars, where $c_i \in \mathbb{N}^+$ (positive integers), and each item has a performance value of $v_i$ dollars. You currently have $C$ dollars ($C \leq 2000$), and it is required that you must buy exactly one special item. The question is how to make a purchase in order to maximize the total performance value of the items. (It is guaranteed that there is at least one valid solution, and each item can be chosen to buy or not, but there is only one piece of each item, $v_i > 0$).
 
